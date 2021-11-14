@@ -235,7 +235,7 @@ async function app() {
   renderPrediction();
 };
 
-setupWebSocket('wss:////pose-net-socket.herokuapp.com/:443');
+setupWebSocket('wss://pose-net-socket.herokuapp.com/:443');
 
 function setupWebSocket(socketURL) {
   ws = new WebSocket(socketURL);
